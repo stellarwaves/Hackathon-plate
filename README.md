@@ -1,12 +1,12 @@
-# Hackathon-plate 2019
+# Telepostopia
 
-> Internal Ironhack Barcelona Hackathon (UX/UI + WebDev)
+> This project is a landing page for a theoretical time travel delivery service offered by Postopia company. The page consists on three sections.
 
-## How to use
+* First is a hero section with signup option.
+* Second explains the features and process to use the service.
+* Third one gives testimonials from clients.
 
-- Fork to your github account
-- Use this file to describe your project, plan, take notes, todos, etc...
-- Have fun
+> The project is done on pure Frontend with HTML and CSS. JavaScript is used only to control the video execution.
 
 ### Files included:
 
@@ -16,4 +16,4 @@
 
 ### Folders included:
 
-  - `./assets` (add images, fonts, etc...)
+  - `./assets` Includes videos and image elements

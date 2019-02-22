@@ -1,13 +1,86 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Tunathon Barcelona 2018</title>
+    <title>Postopia</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Raleway" rel="stylesheet">
+    <link 
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+      crossorigin="anonymous">
   </head>
+
   <body>
-    <h1>hola</h1>
+
+    <header class="header">
+      <nav class="navbar flex-between">
+        <img class="logo" src="./assets/images/Postopia_logo.png" alt="logo">
+        <ul class="flex-row">
+          <li class="nav-list-item"><a class="padding" href="#how-it-works">How it works</a></li>
+          <li class="nav-list-item"><a class="padding" href="#comments">Testimonies</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section id="home" class="hero section">
+        <div class="container">
+          <h1 class="main-title">Deliver just in one click because just in time is too slow</h1>
+          <div class="cta-container">
+            <input class="input" type="email" name="email" id="email" placeholder="Enter mail">
+            <button class="button" type="submit">Register</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section">
+        <h2 class="section-title">How it works</h2>
+        <div class="flex-wrap main-container">
+          <div class="element-container">
+            <h2 class="subtitle">Browse and buy.</h2>
+            <p class="parapgraph">From the comfort of your  house, check any item you need and we will deliver to you as soon as you press the CLICK button. As easy as that.</p>
+          </div>
+          <div class="element-container image1">
+          </div>
+          <div class="element-container image2">
+            </div>
+          <div class="element-container">
+            <h2 class="subtitle">Open the door. Open your box.</h2>
+            <p class="parapgraph">When the bell rings, just go to the door and enjoy your product! Our  services are here to help you deal with the important things and not wait for the  delivery to come. It comes just at a CLICK.</p>
+          </div>
+          <div class="element-container">
+            <h2 class="subtitle">Postopia</h2>
+            <p class="parapgraph">We are your new delivery guys! We are here to stay and help you out. We are fast, quick, reliable and no one else can do it better than us!</p>
+            <p>Try us and the first item will receive a 15% off!</p>
+          </div>
+        </div>
+      </section>
+      
+      <section id="comments" class="section video-container">
+        <div class="btn-play">
+          <h2>Check out what our happy customers say</h2>
+          <i class="fas fa-play"></i>
+        </div>
+        <video src="assets/video/Pexels Videos 2957.mp4" id="video" class="video" autoplay loop> </video>
+
+      </section>
+      
+    </main>
+
+    <footer class="footer flex-between">
+      <div class="flex-row">
+        <p class="footer-link">&#169; Postopia</p>
+      </div>
+      <ul class="social-icons flex-row">
+        <li class="icon"><a class="padding"><i class="fab fa-facebook-square"></i></a></li>
+        <li class="icon"><a class="padding"><i class="fab fa-twitter-square"></i></a></li>
+        <li class="icon"><a class="padding"><i class="fab fa-instagram"></i></a></li>
+        <li class="icon"><a class="padding"><i class="fab fa-pinterest-square"></i></a></li>
+      </ul>
+    </footer>
     <script src="main.js"></script>
   </body>
 </html>

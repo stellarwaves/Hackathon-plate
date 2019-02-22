@@ -12,21 +12,38 @@ body {
   padding: 0;
 }
 
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
 
 /* ---- typography ---- */
 
+h1, h2 {
+  font-family: 'Quicksand', sans-serif;
+}
+p, a{
+  font-family: 'Raleway', sans-serif;
+}
+
+h2, a{
+  font-size: 1.5rem;
+  color: #654BB9;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
 
 /* ---- layout ---- */
-
-
-.container {
-  margin: 0 20px;
-}
-
-.section {
-  margin-bottom: 20px;
-  padding-top: 20px;
-}
 
 @media (min-width: 768px) {
   .container {
@@ -35,11 +52,150 @@ body {
   }
 }
 
-/* ---- header ---- */
-
-/* ---- footer ---- */
-
 /* ---- components ---- */
 
-/* ---- css shame ---- */
+nav{
+  margin-bottom: 5%;
+}
+
+.image1{
+  background-image: url("./assets/images/Group_3.png"); 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.image2{
+  background-image: url("./assets/images/Amazon_Delivery_Box.png"); 
+  background-repeat: no-repeat;
+  background-position-x: 40%;
+}
+
+.logo{
+  margin: 1rem 0 0 5vw;
+  height: 3.1rem;
+}
+
+.nav-bar ul{
+  margin: 1.5rem 5vw 0 0;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  height: 80vh;
+  background: url('assets/images/HeroImage.png') no-repeat transparent;
+  background-size: contain;  
+}
+
+.main-title{
+  text-align: center;
+  width: 35rem;
+  margin: 0 auto 3rem auto;
+  text-transform: uppercase;
+}
+
+.cta-container{
+  position: relative;
+}
+
+.input{
+  height: 4.3rem;
+  width: 27.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #CACACA;
+  position: absolute;
+}
+
+.input::placeholder{
+  padding: 0 1rem;
+  color: #D0D0D0;
+}
+
+.button{
+  position: absolute;
+  right: 0;
+  height: 4.3rem;
+  width: 13.3rem;
+  color: white;
+  background-color: #18BD9B;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.section-title{
+  margin-left: 5vw;
+  border-bottom: 2px solid #654BB9;
+  width: 9.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.element-container{
+  width: 40vw;
+  height: 15rem;
+  margin: 2.5% 5vw;
+}
+
+.flex-wrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-between{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.padding{
+  margin: 1rem;
+}
+
+.container {
+  margin: 0 20px;
+}
+
+
+.video-container{
+  position: relative;
+}
+
+.video{
+  background-color: rgba(250, 250, 250, 0.45);
+  width: 100vw;
+  height: auto;
+}
+
+.btn-play{
+  position: absolute;
+  top: 44%;
+  left: 30vw;
+  width: 40vw;
+  text-align: center;
+}
+
+.btn-play h2{
+  color: white;
+}
+
+.btn-play i{
+  text-align: center;
+  border-radius: 25px;
+  padding: 1rem;
+  color: white;
+  background-color: #18BD9B;
+}
+
+.footer-link{
+  padding-left: 2rem;
+}
 

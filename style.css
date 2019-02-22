@@ -197,5 +197,18 @@ nav{
 
 .footer-link{
   padding-left: 2rem;
+  color: #654BB9;
 }
 
+.image-position-absolute{
+  position: absolute;
+  padding-top: 37.5%;
+  z-index: -1;
+}
+
+.image2-position-absolute{
+  position: absolute;
+  padding-top: 25%;
+  z-index: -1;
+  padding-left: 65.7%;
+}
